@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Heart Disease Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Heart Disease Prediction</h2>
+
+    <input type="number" id="age" placeholder="Age">
+    <input type="number" id="sex" placeholder="Sex (0=female,1=male)">
+    <input type="number" id="cp" placeholder="Chest Pain Type">
+    <input type="number" id="trestbps" placeholder="Resting BP">
+    <input type="number" id="chol" placeholder="Cholesterol">
+    <input type="number" id="fbs" placeholder="Fasting Blood Sugar">
+    <input type="number" id="restecg" placeholder="Rest ECG">
+    <input type="number" id="thalach" placeholder="Max Heart Rate">
+    <input type="number" id="exang" placeholder="Exercise Induced Angina">
+    <input type="number" step="0.1" id="oldpeak" placeholder="Oldpeak">
+    <input type="number" id="slope" placeholder="Slope">
+    <input type="number" id="ca" placeholder="CA">
+    <input type="number" id="thal" placeholder="Thal">
+
+    <button onclick="predict()">Predict</button>
+
+    <h3 id="result"></h3>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
